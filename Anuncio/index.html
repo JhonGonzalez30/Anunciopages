@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuncio Publicitario - Cátedra UNADISTA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        main {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .anuncio {
+            flex: 3;
+            padding: 20px;
+            display: flex; /* Usar flexbox para centrar el contenido */
+            flex-direction: column; /* Colocar los elementos en columna */
+            justify-content: flex-start; /* Alinear al inicio */
+            align-items: flex-start; /* Alinear a la izquierda */
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .imagenes {
+            flex: 1;
+            padding: 10px;
+            text-align: center; /* Centrado del texto */
+            background-color: #e1e1e1;
+            border-radius: 5px;
+        }
+        footer {
+            font-size: 0.9em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .titulo-principal {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center; /* Centrar el título principal */
+            width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+        }
+        .titulo-secundario {
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+        .icono {
+            margin-right: 10px;
+            color: #4CAF50; /* Color del icono */
+        }
+        .titulo-numerado {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        .texto-adicional {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555; /* Color del texto adicional */
+        }
+        .frase-final {
+            margin-top: 20px;
+            font-size: 1.1em;
+            text-align: center; /* Centrar la frase final */
+            font-weight: bold; /* Negrita para la frase final */
+            width: 100%; /* Asegurar que ocupe todo el ancho disponible */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jhon Stiven Gonzalez Hernandez</h1>
+        <h2>Cátedra UNADISTA</h2>
+    </header>
+    <main>
+        <div class="anuncio">
+            <div class="titulo-principal">
+                <i class="fas fa-star icono"></i><strong>¡Generación 5.0: Definiendo el Futuro!</strong><i class="fas fa-star icono"></i>
+            </div>
+            <p class="texto-adicional"> La Generación 5.0 no es solo un término; somos un movimiento que fusiona la tecnología avanzada con la empatía humana. Creemos en un futuro donde la innovación y el bienestar van de la mano, creando un mundo más sostenible y equitativo. </p>
+            
+            <div class="titulo-secundario">
+                <i class="fas fa-search icono"></i><strong>¿Qué nos define?</strong>
+            </div>
+
+            <!-- Títulos numerados con espacios para texto -->
+            <div class="titulo-numerado">
+                <i class="fas fa-1 icono"></i><strong>Innovadores y Adaptables:</strong>
+            </div>
+            <p class="texto-adicional">Hemos crecido en un mundo de cambios rápidos y constantes. Nos adaptamos con facilidad a nuevas tecnologías y buscamos siempre formas de mejorar nuestra vida y la de quienes nos rodean.</p>
+            
+            <div class="titulo-numerado">
+                <i class="fas fa-2 icono"></i><strong>Comprometidos con la Sostenibilidad:</strong>
+            </div>
+            <p class="texto-adicional">Nos preocupamos por el planeta y estamos comprometidos con prácticas sostenibles. Abogamos por un futuro donde el desarrollo tecnológico no comprometa el medio ambiente.</p>
+
+            <div class="titulo-numerado">
+                <i class="fas fa-3 icono"></i><strong>Colaborativos y Conectados:</strong>
+            </div>
+            <p class="texto-adicional">Valorizamos la colaboración. Usamos la tecnología para conectarnos y trabajar juntos en la búsqueda de soluciones para los desafíos globales. Nuestra red es global y nuestras ideas no conocen fronteras.</p>
+
+            <div class="titulo-numerado">
+                <i class="fas fa-4 icono"></i><strong>Éticos y Socialmente Conscientes:</strong>
+            </div>
+            <p class="texto-adicional">Tomamos decisiones informadas que reflejan nuestros valores. La justicia social, la igualdad y la inclusión son principios que guían nuestras acciones. Creemos en un mundo donde todos tengan voz y oportunidad.</p>
+
+            <div class="titulo-numerado">
+                <i class="fas fa-5 icono"></i><strong>Aprendices Continuos:</strong>
+            </div>
+            <p class="texto-adicional">La educación nunca termina. Nos dedicamos al aprendizaje constante, tanto en habilidades técnicas como en desarrollo personal. Nos esforzamos por crecer y evolucionar junto con el mundo.</p>
+
+            <div class="titulo-secundario">
+                <i class="fas fa-globe icono"></i><strong>¿Qué queremos lograr?</strong>
+            </div>
+            <p>Como Generación 5.0, buscamos un futuro donde la tecnología potencie nuestras vidas sin dejar de lado nuestra humanidad. Queremos ser agentes de cambio, inspirando a otros a unirse a nosotros en esta misión.</p>
+
+            <!-- Espacio para la frase final -->
+            <div class="frase-final">
+                <i class="fas fa-bolt icono"></i><strong>Únete a nosotros en este viaje hacia un futuro más brillante y humano. La Generación 5.0 está aquí para transformar el mundo. ¡Juntos, podemos hacerlo!</strong><i class="fas fa-bolt icono"></i>
+            </div>
+        </div>
+        <div class="imagenes">
+            <img src="./img/primera.png" alt="Imagen 1">
+            <img src="./img/segunda.png" alt="Imagen 2">
+            <img src="./img/tercera.png" alt="Imagen 3">
+        </div>
+    </main>
+    <footer>
+        <p>Fecha: <span id="fecha"></span></p>
+    </footer>
+
+    <script>
+        // Código para mostrar la fecha actual en el pie de página
+        const fechaHoy = new Date();
+        const opcionesFecha = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('fecha').textContent = fechaHoy.toLocaleDateString('es-ES', opcionesFecha);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
